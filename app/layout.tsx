@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Modal />
+        <Modal disabled={false} secondaryActionLabel="Proceed" />
         <Navbar />
         {children}
       </body>
